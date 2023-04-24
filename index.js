@@ -6,7 +6,7 @@ class Vestimenta {
       this.price = 0
     }
     calculaPrice() {
-      this.price = (this.cuantas * this.nombre).toFixed(2)
+      this.precio = (this.cuantas * this.nombre).toFixed(2)
     }
     
   }
@@ -45,7 +45,7 @@ class Vestimenta {
       this.celular = celular
     }
     datosDelCliente() {
-      alert(`Gracias por contactarnos ${this.name},
+      alert(`Gracias por contactarnos ${this.nombre},
       Estaremos en contacto con usted a la brevedad ${this.celular}
       Le pedimos amablemente que verifique su email de manera regular ${this.email} 
        
@@ -145,7 +145,7 @@ class Vestimenta {
     estilo = parseInt(prompt('Ingresaste mal la opcion, intentalo de nuevo: "1"s, "2"m, "3"l "4"xl'))
     console.log(estilo)
   }
-  alert(`You have chosen: ${estilos[estilo - 1]}`)
+  alert(`Has elegido: ${estilos[estilo - 1]}`)
   
   
   
@@ -187,7 +187,7 @@ class Vestimenta {
   while (tarjeta != 1 && tarjeta != 2 && tarjeta != 3 && tarjeta != 4 && tarjeta != 5 && tarjeta != 6) {
     tarjeta = prompt('Porfavor marque la opcion que ingreso, presione: "1" por Visa, "2" por mercado pago or "3" por mastercard')
   }
-  alert(`Your payment method is: ${tarjetas[tarjeta - 1]}`)
+  alert(`Your Tu metodo de pago es: ${tarjetas[tarjeta - 1]}`)
   
   // Datos de contacto del usuario/cliente
   
